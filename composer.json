@@ -1,0 +1,21 @@
+{
+    "name": "kaykay012/migration",
+    "description": "ecshop 数据导入到 fecshop",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "fecshop", "ecshop"],
+    "license": "BSD-3-Clause", 
+    "authors": [
+        {
+            "name": "kai cui",
+            "email": "kaykay012@sina.cn"
+        }
+    ],
+    "require": {
+        "fancyecommerce/fecshop": ">=1.4.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "kaykay012\\migration\\": ""
+        }
+    }
+}
