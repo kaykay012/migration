@@ -1,6 +1,6 @@
 ecshop 数据迁移到 fecshop
 ================
-设计到的表:
+涉及到的表:
 users, 
 category, 
 goods, goods_cat, goods_galery, volume_price
@@ -17,7 +17,6 @@ or 在根目录的`composer.json`中添加
 
 ```
 "kaykay012/migration": "*"
-
 ```
 
 然后执行
